@@ -8,8 +8,8 @@ mkdir $DEST
 
 # Downloading F-14 and F-15
 git clone --depth=1 --branch=OPRF https://github.com/Zaretto/fg-aircraft.git $TEMP/F-14_F-15
-mv $TEMP/F-14_F-15/F-15 $DEST/
-mv $TEMP/F-14_F-15/f-14b $DEST/
+mv $TEMP/F-14_F-15/aircraft/F-15 $DEST/
+mv $TEMP/F-14_F-15/aircraft/f-14b $DEST/
 
 # Downloading the Mirage
 git clone --depth=1 https://github.com/5H1N0B11/Aircraft $TEMP/Mirage
